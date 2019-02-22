@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanvest.Web", "Fanvest.Web\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanvest.Core", "Fanvest.Core\Fanvest.Core.csproj", "{40FC70F8-430F-44AE-A8A1-9E823A172B34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanvest.Data", "Fanvest.Data\Fanvest.Data.csproj", "{0AD3B586-05E5-47D5-A492-EDB991C401C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{40FC70F8-430F-44AE-A8A1-9E823A172B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40FC70F8-430F-44AE-A8A1-9E823A172B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40FC70F8-430F-44AE-A8A1-9E823A172B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD3B586-05E5-47D5-A492-EDB991C401C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD3B586-05E5-47D5-A492-EDB991C401C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD3B586-05E5-47D5-A492-EDB991C401C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD3B586-05E5-47D5-A492-EDB991C401C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
