@@ -89,7 +89,7 @@ namespace Fanvest.Services.Installation
             {
                 User = adminUser,
                 PasswordFormat = PasswordFormat.Hashed,
-                Password = _encryptionService.CreatePasswordHash("!NbR1208$",
+                Password = _encryptionService.CreatePasswordHash("",
                     string.Empty, _siteSettings.HashedPasswordFormat),
                 SaltKey = string.Empty,
                 CreatedOn = DateTime.Now
