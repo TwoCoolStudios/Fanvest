@@ -21,7 +21,7 @@ namespace Fanvest.Services.Messages
                 smtpClient.Host = "mail.fanvest.io";
                 smtpClient.Port = 25;
                 smtpClient.Credentials = false ? CredentialCache.DefaultNetworkCredentials
-                    : new NetworkCredential("support@fanvest.io", "!NbR1208$");
+                    : new NetworkCredential("support@fanvest.io", "");
                 await smtpClient.SendMailAsync(message);
             }
         }
