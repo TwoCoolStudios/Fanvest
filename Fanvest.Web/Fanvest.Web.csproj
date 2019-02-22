@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Fanvest.Core\Fanvest.Core.csproj" />
     <ProjectReference Include="..\Fanvest.Data\Fanvest.Data.csproj" />
+    <ProjectReference Include="..\Fanvest.Services\Fanvest.Services.csproj" />
   </ItemGroup>
 
 </Project>
